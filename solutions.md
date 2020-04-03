@@ -17,6 +17,12 @@ WHERE rental_rate = 0.99;
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
 
+```sql
+SELECT DISTINCT rating AS Ratings, COUNT(rating) / 10 AS Percentages 
+FROM film 
+GROUP BY rating;
+```
+
 ### Q3
 
 
